@@ -1,0 +1,7 @@
+br\com\spotity\playlist\add\api\configuracao\Configuracao.class
+br\com\spotity\playlist\add\api\PlayListApiApplication.class
+br\com\spotity\playlist\add\api\json\PlayListJson.class
+br\com\spotity\playlist\add\api\json\PlayListJson$PlayListJsonBuilder.class
+br\com\spotity\playlist\add\api\configuracao\KafkaConfiguracao.class
+br\com\spotity\playlist\add\api\http\PlayListController.class
+br\com\spotity\playlist\add\api\service\SavePlayListService.class

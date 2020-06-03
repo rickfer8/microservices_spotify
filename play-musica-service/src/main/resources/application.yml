@@ -1,0 +1,20 @@
+kafka:
+  bootstrap-servers: 127.0.0.1:9092
+  topic.request-topic: request_topic_musica_play
+  topic.requestreply-topic: reply_topic_musica_play
+  consumergroup: request_reply_musica_grupo_play
+  producer:
+    max:
+      request:
+        size: 231072000
+    batch-size: 60000000
+    buffer-memory: 60000000
+  client-id: musica-play-consumer
+  consumer:
+    group-id: request_reply_musica_grupo_play
+    auto-offset-reset: earliest
+    enable-auto-commit: false
+
+spring:
+  application:
+    name: musica-play-consumer

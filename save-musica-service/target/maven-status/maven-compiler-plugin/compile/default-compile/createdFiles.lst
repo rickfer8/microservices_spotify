@@ -1,0 +1,10 @@
+br\com\curso\save\musica\service\gateway\json\MusicaJson.class
+br\com\curso\save\musica\service\service\MusicaListener.class
+br\com\curso\save\musica\service\service\MusicaService.class
+br\com\curso\save\musica\service\configuracao\Configuracao.class
+br\com\curso\save\musica\service\domain\Musica.class
+br\com\curso\save\musica\service\domain\Musica$MusicaBuilder.class
+br\com\curso\save\musica\service\gateway\json\MusicaJson$MusicaJsonBuilder.class
+br\com\curso\save\musica\service\configuracao\KafkaConfiguracao.class
+br\com\curso\save\musica\service\repository\MusicaRepository.class
+br\com\curso\save\musica\service\MusicaServiceApplication.class

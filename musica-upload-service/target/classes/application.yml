@@ -1,0 +1,22 @@
+kafka:
+  bootstrap-servers: 127.0.0.1:9092
+  topic.musica-status: topic_playlist_status2
+  topic.request-topic: request_topic_musica_upload
+  topic.requestreply-topic: reply_topic_musica_upload
+  consumergroup: request_reply_playlist_grupo_upload
+  producer:
+    max:
+      request:
+        size: 231072000
+    batch-size: 60000000
+    buffer-memory: 60000000
+  client-id: musica-upload-service-producer
+  consumer:
+    group-id: request_reply_playlist_grupo_upload
+    auto-offset-reset: earliest
+    enable-auto-commit: false
+
+
+spring:
+  application:
+    name: musica-upload-service-producer

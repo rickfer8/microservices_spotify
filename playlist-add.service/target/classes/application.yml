@@ -1,0 +1,22 @@
+kafka:
+  bootstrap-servers: 127.0.0.1:9092
+  topic.music-status: topic_playlist_status2
+  topic.request-topic: request_topic_playlist
+  topic.requestreply-topic: reply_topic_playlist
+  consumergroup: request_reply_playlist_grupo
+  producer:
+    max:
+      request:
+        size: 231072000
+    batch-size: 60000000
+    buffer-memory: 60000000
+    bootstrap-servers: 127.0.0.1:9092
+    client-id: playlist-consumer
+  consumer:
+    group-id: request_reply_playlist_grupo
+    auto-offset-reset: earliest
+    enable-auto-commit: false
+
+spring:
+  application:
+    name: playlist-consumer

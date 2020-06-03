@@ -1,0 +1,8 @@
+C:\Users\ricardo.ribeirof\Documents\microservices\workspace_curso\microservices-spotify\save-musica-service\src\main\java\br\com\curso\save\musica\service\gateway\json\MusicaJson.java
+C:\Users\ricardo.ribeirof\Documents\microservices\workspace_curso\microservices-spotify\save-musica-service\src\main\java\br\com\curso\save\musica\service\domain\Musica.java
+C:\Users\ricardo.ribeirof\Documents\microservices\workspace_curso\microservices-spotify\save-musica-service\src\main\java\br\com\curso\save\musica\service\MusicaServiceApplication.java
+C:\Users\ricardo.ribeirof\Documents\microservices\workspace_curso\microservices-spotify\save-musica-service\src\main\java\br\com\curso\save\musica\service\repository\MusicaRepository.java
+C:\Users\ricardo.ribeirof\Documents\microservices\workspace_curso\microservices-spotify\save-musica-service\src\main\java\br\com\curso\save\musica\service\configuracao\Configuracao.java
+C:\Users\ricardo.ribeirof\Documents\microservices\workspace_curso\microservices-spotify\save-musica-service\src\main\java\br\com\curso\save\musica\service\configuracao\KafkaConfiguracao.java
+C:\Users\ricardo.ribeirof\Documents\microservices\workspace_curso\microservices-spotify\save-musica-service\src\main\java\br\com\curso\save\musica\service\service\MusicaListener.java
+C:\Users\ricardo.ribeirof\Documents\microservices\workspace_curso\microservices-spotify\save-musica-service\src\main\java\br\com\curso\save\musica\service\service\MusicaService.java

@@ -1,0 +1,7 @@
+br\com\spotity\musica\upload\api\configuracao\Configuracao.class
+br\com\spotity\musica\upload\api\json\MusicaUploadJson$MusicaUploadJsonBuilder.class
+br\com\spotity\musica\upload\api\configuracao\KafkaConfiguracao.class
+br\com\spotity\musica\upload\api\service\UploadMusicaService.class
+br\com\spotity\musica\upload\api\http\MusicaController.class
+br\com\spotity\musica\upload\api\MusicaUploadApiApplication.class
+br\com\spotity\musica\upload\api\json\MusicaUploadJson.class

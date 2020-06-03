@@ -1,0 +1,9 @@
+br\com\spotity\play\musica\service\service\GetMusicaService.class
+br\com\spotity\play\musica\service\PlayMusicaServiceApplication.class
+br\com\spotity\play\musica\service\configuracao\KafkaConfiguracao.class
+br\com\spotity\play\musica\service\domain\PlayList$PlayListBuilder.class
+br\com\spotity\play\musica\service\domain\PlayList.class
+br\com\spotity\play\musica\service\json\PlayListJson.class
+br\com\spotity\play\musica\service\configuracao\Configuracao.class
+br\com\spotity\play\musica\service\json\PlayListJson$PlayListJsonBuilder.class
+br\com\spotity\play\musica\service\repository\PlayListRepository.class

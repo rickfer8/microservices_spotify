@@ -1,0 +1,11 @@
+br\com\spotity\musica\upload\service\enuns\MusicaStatusEnum.class
+br\com\spotity\musica\upload\service\configuracao\Configuracao.class
+br\com\spotity\musica\upload\service\json\MusicaUploadJson.class
+br\com\spotity\musica\upload\service\MusicaUploadServiceApplication.class
+br\com\spotity\musica\upload\service\json\PlayListJson$PlayListJsonBuilder.class
+br\com\spotity\musica\upload\service\configuracao\KafkaConfiguracao.class
+br\com\spotity\musica\upload\service\service\SaveMusicaStatusService.class
+br\com\spotity\musica\upload\service\service\UploadMusicaService.class
+br\com\spotity\musica\upload\service\json\PlayListJson.class
+br\com\spotity\musica\upload\service\service\UploadS3Service.class
+br\com\spotity\musica\upload\service\json\MusicaUploadJson$MusicaUploadJsonBuilder.class

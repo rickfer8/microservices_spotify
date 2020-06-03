@@ -1,0 +1,31 @@
+inserir musica
+
+http://localhost:8080/v1/
+
+body
+{
+	"nome": "Coldplay",
+	"origem": "England",
+	"estilo":"Rock"
+}
+
+Inserir musica na playlist
+
+http://localhost:8082/v1/playlist/c3d69ca9-5fa3-4db8-bf41-bd0a8901af81/musicas
+
+body
+{
+ "nome": "U2", 
+ "uuidMusica": "c3d69ca9-5fa3-4db8-bf41-bd0a8901af81"
+}
+
+Inserir musica no S3
+- vai na pasta aonde se encontra a musica para poder inserir
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{ "name": "Musica 2", "uuidCustomer": "629fa538-6651-49a6-9025-862d6f70f1c8"}' \
+  http://localhost:8082/v1/customers/629fa538-6651-49a6-9025-862d6f70f1c8/musics
+
+Ouvir musica pelo VLC
+
+http://localhost:8087/v1/musica/39e70b34-5a73-4994-afb0-297e3f2561fc

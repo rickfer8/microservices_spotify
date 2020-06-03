@@ -1,0 +1,7 @@
+br\com\curso\save\music\api\service\SaveMusicaService.class
+br\com\curso\save\music\api\gateway\http\MusicaController.class
+br\com\curso\save\music\api\configuracao\KafkaConfiguracao.class
+br\com\curso\save\music\api\gateway\json\MusicaJson$MusicaJsonBuilder.class
+br\com\curso\save\music\api\gateway\json\MusicaJson.class
+br\com\curso\save\music\api\MusicApiApplication.class
+br\com\curso\save\music\api\configuracao\Configuracao.class
